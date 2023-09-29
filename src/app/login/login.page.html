@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Iniciar Sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <ion-card class="card_login">
+      <ion-list>
+        <!-- VALIDATE USER EMAIL -->
+        <ion-item>
+          <ion-label position="stacked"> Direccion de correo </ion-label>
+          <ion-input formControlName="userEmail" type="email"></ion-input>
+        </ion-item>
+
+        <ion-label text-wrap color="danger" *ngIf="invalidField('userEmail')">
+          {{ getErrorMessage('userEmail') }}
+        </ion-label>
+
+        <!-- VALIDATE PASSWORD -->
+        <ion-item>
+          <ion-label position="stacked">Contraseña</ion-label>
+          <ion-input formControlName="userPassword" type="password"></ion-input>
+        </ion-item>
+
+        <ion-label
+          text-wrap
+          color="danger"
+          *ngIf="invalidField('userPassword')"
+        >
+          {{ getErrorMessage('userPassword') }}
+        </ion-label>
+
+        <!-- BUTTON LOGIN -->
+      </ion-list>
+      <ion-button color="light" expand="full" type="submit">Entrar</ion-button>
+    </ion-card>
+  </form>
+</ion-content>

@@ -1,20 +1,74 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <!-- <ion-title> DespegalaAirlines </ion-title> -->
+    <!-- viajes -->
+    <ion-segment value="home">
+      <ion-segment-button value="home">
+        <ion-label>inicio</ion-label>
+      </ion-segment-button>
+      <ion-segment-button [routerLink]="['/viajes']" value="all">
+        <ion-label>viajes</ion-label>
+      </ion-segment-button>
+      <!-- alojamiento -->
+      <ion-segment-button [routerLink]="['/alojamiento']" value="favorites">
+        <ion-label>alojamiento</ion-label>
+      </ion-segment-button>
+    </ion-segment>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content class="general_cards">
+  <!-- <ion-button [routerLink]="['/viajes']">RESERVE SU VIAJE</ion-button>
+  <ion-button [routerLink]="['/alojamiento']"> RESERVE SU ESTADIA </ion-button> -->
+  <ion-row>
+    <ion-col sizeLg="3" sizeMd="6" sizeXs="12">
+      <!-- Cards of reserve -->
+      <ion-card class="CardPrueba" [routerLink]="['/viajes']">
+        <ion-card-header>
+          <img
+            src="https://cdn.forbes.com.mx/2020/07/hoteles-Grand-Velas-Resorts-e1596047698604.jpg"
+          />
+          <ion-card-title>Hotel Fantastic</ion-card-title>
+          <ion-card-subtitle>Colombia-Barranquilla</ion-card-subtitle>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>
+  <!-- 2 -->
+  <ion-col sizeLg="3" sizeMd="6" sizeXs="12">
+    <ion-card class="CardPrueba" [routerLink]="['/viajes']">
+      <ion-card-header>
+        <img
+          src="https://cdn.forbes.co/2020/02/sofitel-legend-santa-clara-outdoor-pool.jpg"
+        />
+        <ion-card-title>Hotel Amor Nuevo</ion-card-title>
+        <ion-card-subtitle>Colombia-Barranquilla</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+  </ion-col>
+  <!-- 3 -->
+<ion-col sizeLg="3" sizeMd="6" sizeXs="12">
+  <ion-card class="CardPrueba" [routerLink]="['/viajes']">
+    <ion-card-header>
+      <img
+      src="https://media-cdn.tripadvisor.com/media/photo-s/29/11/23/98/hotel-exterior.jpg"
+      />
+      <ion-card-title>Hotel Amor Nuevo</ion-card-title>
+      <ion-card-subtitle>Colombia-Barranquilla</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+</ion-col>
+  <!-- 4 -->
+  <ion-col sizeLg="3" sizeMd="6" sizeXs="12">
+    <ion-card class="CardPrueba" [routerLink]="['/viajes']">
+      <ion-card-header>
+        <img
+        src="https://res.cloudinary.com/simpleview/image/upload/v1642787126/clients/loscabosmx/Copia_de_Copia_de_Esperanza_0010x_8dcb97e1-1c39-4cd8-8e36-326ec39d65b3.jpg"
+        />
+        <ion-card-title>Hotel Amor Nuevo</ion-card-title>
+        <ion-card-subtitle>Colombia-Barranquilla</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+  </ion-col>
+</ion-row>
+  <!-- 6 -->
 </ion-content>

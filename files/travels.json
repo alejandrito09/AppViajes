@@ -1,0 +1,24 @@
+{
+  "data":[
+    {
+      "id": 0,
+      "name": "Cancun",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Cancun_Strand_Luftbild_%2822143397586%29.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Machupichu",
+      "image": "https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-707/a_Machu-Picch-a.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Venecia",
+      "image": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/06/12163043/iStock-474870775-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Torre de pisa",
+      "image": "https://www.infobae.com/new-resizer/dbcnD_OL_e2ND2vT9T_GyAa7IpA=/1200x900/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/L2W3PEXXGVAAPFDVDWCHAC73EM.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-buttons>
+    <ion-back-button defaultHref="/home"></ion-back-button>
+  </ion-buttons>
+  <ion-toolbar>
+    <ion-title>viajes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="general_cards">
+  <ion-row>
+    <ion-col sizeLg="3" sizeMd="6" sizeXs="12">    
+      <ion-card class="CardPrueba" *ngFor="let item of infoCards" [routerLink]="['/reserva', item.id]">
+        {{item.image}}
+        {{item.name}}
+      </ion-card>
+    </ion-col> 
+  </ion-row>
+</ion-content>
