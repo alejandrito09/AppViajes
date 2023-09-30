@@ -9,11 +9,11 @@
 
 <ion-content class="general_cards">
   <ion-row>
-    <ion-col sizeLg="3" sizeMd="6" sizeXs="12">    
-      <ion-card class="CardPrueba" *ngFor="let item of infoCards" [routerLink]="['/reserva', item.id]">
-        {{item.image}}
-        {{item.name}}
+    <ion-col sizeLg="3" sizeMd="6" sizeXs="12" *ngFor="let item of infoCards">
+      <ion-card class="CardPrueba" [routerLink]="['/reserva', item.id]">
+        <img [src]="item.image" alt="foto" />
+        <p style="padding: 10px; font-weight: 600">{{item.name}}</p>
       </ion-card>
-    </ion-col> 
+    </ion-col>
   </ion-row>
 </ion-content>

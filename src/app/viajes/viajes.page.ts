@@ -8,7 +8,7 @@ import dataInfo from '../../../files/travels.json';
   styleUrls: ['./viajes.page.scss'],
 })
 export class ViajesPage implements OnInit {
-  infoCards = dataInfo.data
+  infoCards = dataInfo.data;
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {

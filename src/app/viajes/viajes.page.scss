@@ -1,6 +1,11 @@
 .CardPrueba {
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.CardPrueba img {
+  min-height: 350px;
+  max-height: 350px;
 }
 
 .general_cards {
