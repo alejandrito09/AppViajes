@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "Hotel Fantastic",
+      "image": "https://cdn.forbes.com.mx/2020/07/hoteles-Grand-Velas-Resorts-e1596047698604.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Hotel Amor Nuevo",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/29/11/23/98/hotel-exterior.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Hotel Amor Nuevo",
+      "image": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/06/12163043/iStock-474870775-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Hotel Amor Nuevo",
+      "image": "https://res.cloudinary.com/simpleview/image/upload/v1642787126/clients/loscabosmx/Copia_de_Copia_de_Esperanza_0010x_8dcb97e1-1c39-4cd8-8e36-326ec39d65b3.jpg"
+    },
+    {
+      "id": 0,
+      "name": "Cancun",
+      "image": "https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-707/a_Machu-Picch-a.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Machupichu",
+      "image": "https://www.hola.com/imagenes/viajes/2014072572733/top-25-destinos-turisticos-mundo/0-281-707/a_Machu-Picch-a.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Venecia",
+      "image": "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/06/12163043/iStock-474870775-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Torre de pisa",
+      "image": "https://www.infobae.com/new-resizer/dbcnD_OL_e2ND2vT9T_GyAa7IpA=/1200x900/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/L2W3PEXXGVAAPFDVDWCHAC73EM.jpg"
+    }
+  ]
+}
